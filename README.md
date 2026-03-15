@@ -1,2 +1,2 @@
 # rock, paper, scissors! 🗿📃✂️
-Computer Science foundations | St. Saviour High School
+St. Saviour High School | Computer Science: Foundations
