@@ -27,25 +27,25 @@ if __name__ == '__main__':
             choice = '✂️'
 
         opponent = options[random.randint(0, 2)]
-        print_dramatic_text('rock ... paper ... scissors ... shoot!')
+        print_dramatic_text('rock ... paper ... scissors -- shoot! 💯')
 
         if choice == opponent:
-            print(f'you chose {choice} and opponent chose {opponent}, you tie!')
+            print(f'you chose {choice}  and opponent chose {opponent}  you tie!')
         if choice == '🗿' and opponent == '✂️':
-            print(f'you chose {choice} and opponent chose {opponent}, you win!')
+            print(f'you chose {choice}  and opponent chose {opponent}  you win!')
             score += 1
         if choice == '🗿' and opponent == '📃':
-            print(f'you chose {choice} and opponent chose {opponent}, you lose!')
+            print(f'you chose {choice}  and opponent chose {opponent}  you lose!')
         if choice == '📃' and opponent == '🗿':
-            print(f'you chose {choice} and opponent chose {opponent}, you win!')
+            print(f'you chose {choice}  and opponent chose {opponent}  you win!')
             score += 1
         if choice == '📃' and opponent == '✂️':
-            print(f'you chose {choice} and opponent chose {opponent}, you lose!')
+            print(f'you chose {choice}  and opponent chose {opponent}  you lose!')
         if choice == '✂️' and opponent == '📃':
-            print(f'you chose {choice} and opponent chose {opponent}, you win!')
+            print(f'you chose {choice}  and opponent chose {opponent} you win!')
             score += 1
         if choice == '✂️' and opponent == '🗿':
-            print(f'you chose {choice} and opponent chose {opponent}, you lose!')
+            print(f'you chose {choice}  and opponent chose {opponent}  you lose!')
         
         i += 1
 
